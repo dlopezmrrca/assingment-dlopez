@@ -1,10 +1,10 @@
 FROM node:lts-iron
  
-WORKDIR /react-docker-example/
+WORKDIR /daniel_lopez_coding_site/
  
-COPY public/ /react-docker-example/public
-COPY src/ /react-docker-example/src
-COPY package.json /react-docker-example/
+COPY public/ /daniel_lopez_coding_site/public
+COPY src/ /daniel_lopez_coding_site/src
+COPY package.json /daniel_lopez_coding_site/
  
 RUN npm install
  
